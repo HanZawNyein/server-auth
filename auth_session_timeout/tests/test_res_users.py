@@ -15,7 +15,7 @@ class EndTestException(Exception):
 
 class TestResUsers(TransactionCase):
     def setUp(self):
-        super(TestResUsers, self).setUp()
+        # super(TestResUsers, self).setUp()
         self.ResUsers = self.env["res.users"]
 
     @contextmanager

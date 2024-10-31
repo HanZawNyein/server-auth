@@ -7,7 +7,6 @@ from odoo.tests import common
 
 class TestIrConfigParameter(common.TransactionCase):
     def setUp(self):
-        super(TestIrConfigParameter, self).setUp()
         self.db = self.env.cr.dbname
         self.param_obj = self.env["ir.config_parameter"]
         self.data_obj = self.env["ir.model.data"]
